@@ -2,6 +2,7 @@
 
 ## 🎯 Team Information
 **Team Name:** GDGOC_Team_NoorUlHassan 
+
 **Members:** Noor Ul Hassan
 
 ---
@@ -311,15 +312,16 @@ team_name/
 
 ## 👥 Team Contributions
 
-- **[Noor Ul Hassan]** - Model Architecture & Training
-- **[Noor Ul Hassan]** - Data Preprocessing & Optimization
-- **[Noor Ul Hassan]** - Evaluation & Deployment
+- **[Noor Ul Hassan]**
+-  - Model Architecture & Training
+-  - Data Preprocessing & Optimization
+-  - Evaluation & Deployment
 
 ---
 
 ## 📧 Contact
 
-- **GitHub**: https://github.com/your-team/dr-detection
+- **GitHub**: https://github.com/NooR-2233/GDGOC_Team_NoorUlHassan.git
 - **Email**: noorulhassan@1071.com
 
 ---
