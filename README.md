@@ -1,8 +1,8 @@
 # Diabetic Retinopathy Detection - GDGOC PIEAS Hackathon 2025
 
 ## 🎯 Team Information
-**Team Name:** [Your Team Name]  
-**Members:** [Names]
+**Team Name:** GDGOC_Team_NoorUlHassan 
+**Members:** Noor Ul Hassan
 
 ---
 
@@ -262,18 +262,17 @@ team_name/
 ├── model/
 │   ├── best_model.pt              # Original trained (50 epochs)
 │   ├── finetuned_model.pt         # After optimization (+2.61%)
+│   ├── trained_model.pt           # Base Trained Model
 │   └── quantized_model.pt         # CPU-optimized deployment
 ├── notebooks/
-│   └── model_training.ipynb       # Complete training pipeline
+│   └── new_notebook.ipynb       # Complete training pipeline
 ├── visualizations/
 │   ├── training_history.png       # Loss/Acc/F1/LR curves
 │   ├── confusion_matrix.png       # Counts + Normalized
 │   ├── roc_curves.png             # All classes with AUC
+│   ├── model_report.txt           # Optimized model report
 │   └── gradcam_analysis.png       # 5 classes × 2 samples
-├── deployment/
-│   └── app.py                     # Streamlit web interface
-├── report/
-│   └── optimization_report.txt    # Post-training analysis
+│── app.py                         # Streamlit web interface
 ├── report.pdf                     # Main technical report
 ├── README.md                      # This file
 └── requirements.txt               # Python dependencies
@@ -310,18 +309,18 @@ team_name/
 
 ---
 
-## 👥 Team Members
+## 👥 Team Contributions
 
-- **[Name 1]** - Model Architecture & Training
-- **[Name 2]** - Data Preprocessing & Optimization
-- **[Name 3]** - Evaluation & Deployment
+- **[Noor Ul Hassan]** - Model Architecture & Training
+- **[Noor Ul Hassan]** - Data Preprocessing & Optimization
+- **[Noor Ul Hassan]** - Evaluation & Deployment
 
 ---
 
 ## 📧 Contact
 
 - **GitHub**: https://github.com/your-team/dr-detection
-- **Email**: team@example.com
+- **Email**: noorulhassan@1071.com
 
 ---
 
@@ -337,5 +336,5 @@ This project is submitted for GDGOC PIEAS AI/ML Hackathon 2025 - Educational Use
 
 ---
 
-**Built with ❤️ by [Your Team Name]**  
+**Built with ❤️ by [GDGOC_Team_NoorUlHassan]**  
 *GDGOC PIEAS AI/ML Hackathon 2025*
