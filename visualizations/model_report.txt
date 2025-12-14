@@ -1,0 +1,60 @@
+
+DIABETIC RETINOPATHY DETECTION - FINAL REPORT
+======================================================================
+
+MODEL ARCHITECTURE:
+- Custom CNN with Attention Mechanisms
+- Total Parameters: 1,711,113
+- Trainable Parameters: 1,711,113
+
+TRAINING CONFIGURATION:
+- Device: cuda
+- Batch Size: 32
+- Image Size: 224x224
+- Total Epochs: 50
+- Learning Rate: 0.0003 (with Cosine Annealing)
+- Optimizer: AdamW with weight decay 0.0001
+- Loss: CrossEntropyLoss with Label Smoothing (0.1)
+
+DATASET:
+- Training Samples: 34792
+- Validation Samples: 9940
+- Classes: 5
+
+PREPROCESSING:
+- CLAHE contrast enhancement
+- Random augmentations (horizontal flip, vertical flip, rotation)
+- ImageNet normalization
+
+FINAL RESULTS:
+- Best Validation F1-Score: 0.6830
+- Final Accuracy: 0.7086
+- Weighted F1: 0.7090
+- Macro F1: 0.7084
+- Weighted Precision: 0.7117
+- Weighted Recall: 0.7086
+
+PER-CLASS F1-SCORES:
+- No DR: 0.6398
+- Mild DR: 0.6082
+- Moderate DR: 0.5522
+- Severe DR: 0.8400
+- Proliferative DR: 0.9019
+
+INFERENCE PERFORMANCE:
+- Single Image: 19.01 ms (52.59 FPS)
+
+======================================================================
+Generated: 2025-12-14 17:17:30
+
+
+POST-TRAINING OPTIMIZATION:
+- Fine-tuning:     0.6830 → 0.7090 (+0.0260)
+- Quantization:    0.7090 → 0.7082 (drop: 0.0008)
+- Speed Improvement: 0.90x faster
+- Size Reduction:    1.09x smaller
+
+COMPUTATIONAL EFFICIENCY (Hackathon Criteria - 20%):
+- Original Inference:  8.59 ms/image
+- Quantized Inference: 9.53 ms/image
+- Deployment-ready:    YES (CPU-optimized)
