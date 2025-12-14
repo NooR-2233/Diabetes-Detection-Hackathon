@@ -1,14 +1,20 @@
-# Core (already have these)
-torch>=2.0.0
-torchvision>=0.15.0
-numpy>=1.24.0
-pandas>=2.0.0
-Pillow>=9.5.0
-scikit-learn>=1.3.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-opencv-python>=4.8.0
-tqdm>=4.65.0
+#Tells pip to look at the PyTorch CUDA 12.1 server first (exactly what you did manually)
+--index-url https://download.pytorch.org/whl/cu121
 
-# NEW - For Streamlit deployment
-streamlit>=1.28.0
+#Tells pip to look at the standard server for everything else (like pandas, streamlit).
+--extra-index-url https://pypi.org/simple
+
+#requirements for the project 
+torch
+torchvision
+torchaudio
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+tqdm
+pillow
+streamlit
+ipywidgets
