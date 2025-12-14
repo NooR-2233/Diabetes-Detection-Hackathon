@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebook Files
+.ipynb_checkpoints
+
+# PyTorch/ML Files
+# Ignore large model files from the main repo (they are in the 'model/' folder)
+# This prevents accidentally saving them twice
+*.pt
+*.pth
+
+# Data (CRITICAL - DO NOT UPLOAD YOUR 5GB+ DATASET)
+dataset/
+data/
+
+# Streamlit (Ignore the local cache)
+.streamlit/
+
+# macOS files
+.DS_Store
