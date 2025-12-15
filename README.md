@@ -180,6 +180,11 @@ Then open: http://localhost:8501
 
 ```
 <img width="2543" height="712" alt="Screenshot 2025-12-15 221510" src="https://github.com/user-attachments/assets/fedf8df7-18ab-44c1-8ab6-8447ba062dc5" />
+<img width="2560" height="1851" alt="screencapture-localhost-8502-2025-12-15-22_17_58" src="https://github.com/user-attachments/assets/416ecae4-a2e1-4f01-a725-80cee985c037" />
+<img width="2560" height="1851" alt="screencapture-localhost-8502-2025-12-15-22_18_58" src="https://github.com/user-attachments/assets/78898993-862a-40b3-9c29-9755921498c6" />
+<img width="2560" height="1851" alt="screencapture-localhost-8502-2025-12-15-22_19_56" src="https://github.com/user-attachments/assets/b5836e08-43a6-40a0-9a8b-d2ef78f56e91" />
+<img width="2560" height="1851" alt="screencapture-localhost-8502-2025-12-15-22_20_45" src="https://github.com/user-attachments/assets/077e7e67-b914-4a1a-96ae-cd00157b0f3f" />
+<img width="2560" height="1851" alt="screencapture-localhost-8502-2025-12-15-22_27_09" src="https://github.com/user-attachments/assets/d36dc7ab-a6f4-4638-b826-a43d59116298" />
 
 
 ## 📈 Evaluation Details
@@ -188,9 +193,9 @@ Then open: http://localhost:8501
 - **Strong diagonal** indicating good overall classification
 - **Minor confusion** between adjacent severity levels (expected in medical imaging)
 - **Excellent separation** for critical classes (Severe/Proliferative)
-```
+
 <img width="4592" height="1772" alt="confusion_matrix" src="https://github.com/user-attachments/assets/a979ba8d-a96e-4b95-bcad-649eeeda0a57" />
-```
+
 
 ### **ROC-AUC Scores**
 - No DR: 0.896
@@ -198,6 +203,8 @@ Then open: http://localhost:8501
 - Moderate DR: 0.848
 - Severe DR: 0.961
 - Proliferative DR: 0.978
+
+<img width="2964" height="2368" alt="roc_curves" src="https://github.com/user-attachments/assets/99341576-7168-4e71-904a-7dbb77f324ca" />
 
 ### **Clinical Relevance**
 Our model excels at detecting **critical DR stages** (Severe: 84%, Proliferative: 90.19%), which is most important for:
@@ -217,6 +224,8 @@ Our model excels at detecting **critical DR stages** (Severe: 84%, Proliferative
 
 ### **Medical Validation**
 The Grad-CAM visualizations confirm the model focuses on **clinically relevant features** used by ophthalmologists for DR diagnosis.
+
+<img width="3580" height="2980" alt="gradcam_analysis" src="https://github.com/user-attachments/assets/8c4c8645-6f22-448a-8e3a-45a381206a7a" />
 
 ---
 
